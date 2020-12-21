@@ -1,0 +1,31 @@
+
+i.icon{
+	font-size: 1.5em;
+}
+.container.main{
+	margin-top:7em;
+}
+.box{
+	margin-top:7em;
+	width:40%;
+	margin-left:30%;
+}
+a{
+	margin-bottom:1em;
+}
+#delete{
+	display:inline;
+}
+.item{
+	margin-top:5px;
+	margin-bottom: 0px;
+}
+.logo{
+	font-size:20px;
+}
+.beat{
+	font-family:'Shadows Into Light', cursive;
+}
+#gsign{
+	justify-content: space-around;
+}

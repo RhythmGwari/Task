@@ -1,0 +1,23 @@
+<%- include("partials/header.ejs") %>
+<div class="ui main text container">
+<h1>This is the Login Page</h1>
+<form class="ui form" method="POST" action="/login">
+
+    <div class="field">
+        <input type="text" placeholder="userName" name="userName" required>
+    </div>
+    <div class="field">
+        <input type="email" placeholder="email" name="email" required>
+    </div>
+    <div class="field">
+        <input type="password" placeholder="password" name="password" required>
+    </div>
+    <div class="field">
+        <button class="ui violet big basic button">Submit</button>
+    </div>
+</form>
+<div class="field">
+    <a href="/google" class="ui red big basic button"><i class="google plus icon"></i>SignUp with Google</a>
+</div>
+</div>
+<%- include("partials/footer.ejs") %>
